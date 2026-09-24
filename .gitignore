@@ -64,6 +64,12 @@ data/raw/heartrate*
 data/raw/minute*
 data/raw/*.xlsx
 
+# --- Microsoft Office Temporary / Lock Files ---
+~$*
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
 # --- Temporary Logs & Checkpoints ---
 *.log
 scratch/

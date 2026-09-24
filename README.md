@@ -151,6 +151,11 @@ STRAVA_Fitness_Data_Analytics/
 ├── .gitignore                      # Operating system, virtualenv, cache, and GitHub limits ignore
 ├── README.md                       # Comprehensive project documentation
 ├── requirements.txt                # Python package dependencies
+├── app.py                          # Root deployment entrypoint for Streamlit Community Cloud
+├── STRAVA_Fitness_Data_Analytics_Dashboard_Report_Tanim_Naha.docx # Executive project report (Word DOC format)
+├── docs/
+│   ├── STRAVA_Fitness_Data_Analytics_Dashboard_Report_Tanim_Naha.docx # Detailed project report
+│   └── images/                     # 15 High-resolution dashboard snapshots (PBI & Streamlit)
 ├── data/
 │   ├── raw/                        # Original raw wearable logs (daily, hourly, minute, sleep, weight)
 │   └── processed/                  # Cleaned data warehouse
