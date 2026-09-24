@@ -1,0 +1,185 @@
+// ============================================================================
+// STRAVA FITNESS DATA ANALYTICS: PRODUCTION DAX MEASURE LIBRARY
+// Platform: Microsoft Power BI Desktop & Service
+// Data Model: Star Schema (Fact_DailyActivity, Fact_HourlyActivity, Dim_Date, Dim_Participant)
+// Author: Tanim Naha
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// 1. STEP VOLUME & MOBILITY MEASURES
+// ----------------------------------------------------------------------------
+
+[Total Steps] = 
+SUM(Fact_DailyActivity[TotalSteps])
+
+[Average Daily Steps] = 
+AVERAGE(Fact_DailyActivity[TotalSteps])
+
+[7-Day Moving Avg Steps] = 
+AVERAGEX(
+    DATESINPERIOD(Dim_Date[FullDate], LASTDATE(Dim_Date[FullDate]), -7, DAY),
+    [Average Daily Steps]
+)
+
+[Step Goal Met Days] = 
+CALCULATE(
+    COUNTROWS(Fact_DailyActivity),
+    Fact_DailyActivity[TotalSteps] >= 10000
+)
+
+[Step Goal Attainment %] = 
+DIVIDE(
+    [Step Goal Met Days],
+    COUNTROWS(Fact_DailyActivity),
+    0
+)
+
+[Active Day Ratio %] = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(Fact_DailyActivity),
+        Fact_DailyActivity[TotalActiveMinutes] >= 30
+    ),
+    COUNTROWS(Fact_DailyActivity),
+    0
+)
+
+[Very Active Ratio %] = 
+DIVIDE(
+    SUM(Fact_DailyActivity[VeryActiveMinutes]),
+    SUM(Fact_DailyActivity[TotalActiveMinutes]),
+    0
+)
+
+[Sedentary Ratio %] = 
+DIVIDE(
+    SUM(Fact_DailyActivity[SedentaryMinutes]),
+    SUM(Fact_DailyActivity[SedentaryMinutes]) + SUM(Fact_DailyActivity[TotalActiveMinutes]),
+    0
+)
+
+// ----------------------------------------------------------------------------
+// 2. CALORIC & METABOLIC MEASURES
+// ----------------------------------------------------------------------------
+
+[Total Calories Burned] = 
+SUM(Fact_DailyActivity[Calories])
+
+[Average Daily Calories] = 
+AVERAGE(Fact_DailyActivity[Calories])
+
+[Calories Per 1000 Steps] = 
+DIVIDE(
+    [Total Calories Burned],
+    DIVIDE([Total Steps], 1000),
+    0
+)
+
+[Active Calorie Burn Rate] = 
+DIVIDE(
+    [Total Calories Burned],
+    SUM(Fact_DailyActivity[TotalActiveMinutes]),
+    0
+)
+
+[Total Distance Km] = 
+SUM(Fact_DailyActivity[TotalDistance])
+
+[Average Daily Distance Km] = 
+AVERAGE(Fact_DailyActivity[TotalDistance])
+
+// ----------------------------------------------------------------------------
+// 3. SLEEP ARCHITECTURE & RESTORATIVE RECOVERY MEASURES
+// ----------------------------------------------------------------------------
+
+[Average Sleep Hours] = 
+CALCULATE(
+    AVERAGE(Fact_DailyActivity[SleepHours]),
+    NOT(ISBLANK(Fact_DailyActivity[SleepHours]))
+)
+
+[Average Time in Bed Hours] = 
+CALCULATE(
+    AVERAGE(Fact_DailyActivity[TimeInBedHours]),
+    NOT(ISBLANK(Fact_DailyActivity[TimeInBedHours]))
+)
+
+[Sleep Efficiency %] = 
+CALCULATE(
+    AVERAGE(Fact_DailyActivity[SleepEfficiencyPct]),
+    NOT(ISBLANK(Fact_DailyActivity[SleepEfficiencyPct]))
+)
+
+[Sleep Latency Minutes] = 
+([Average Time in Bed Hours] - [Average Sleep Hours]) * 60
+
+[Sufficient Sleep Ratio %] = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(Fact_DailyActivity),
+        Fact_DailyActivity[SleepHours] >= 7.0
+    ),
+    CALCULATE(
+        COUNTROWS(Fact_DailyActivity),
+        NOT(ISBLANK(Fact_DailyActivity[SleepHours]))
+    ),
+    0
+)
+
+// ----------------------------------------------------------------------------
+// 4. CARDIOVASCULAR & HEART RATE MEASURES
+// ----------------------------------------------------------------------------
+
+[Average Heart Rate] = 
+CALCULATE(
+    AVERAGE(Fact_DailyActivity[AverageHeartRate]),
+    NOT(ISBLANK(Fact_DailyActivity[AverageHeartRate]))
+)
+
+[Peak Recorded HR] = 
+CALCULATE(
+    MAX(Fact_DailyActivity[MaximumHeartRate]),
+    NOT(ISBLANK(Fact_DailyActivity[MaximumHeartRate]))
+)
+
+[Minimum Resting HR] = 
+CALCULATE(
+    MIN(Fact_DailyActivity[MinimumHeartRate]),
+    NOT(ISBLANK(Fact_DailyActivity[MinimumHeartRate]))
+)
+
+// ----------------------------------------------------------------------------
+// 5. HOURLY DIURNAL & CHRONOTYPE MEASURES
+// ----------------------------------------------------------------------------
+
+[Average Hourly Steps] = 
+AVERAGE(Fact_HourlyActivity[StepTotal])
+
+[Average Hourly Calories] = 
+AVERAGE(Fact_HourlyActivity[Calories])
+
+[Peak Hourly Intensity] = 
+MAX(Fact_HourlyActivity[TotalIntensity])
+
+[Peak Activity Hour Steps] = 
+MAXX(
+    VALUES(Fact_HourlyActivity[Hour]),
+    [Average Hourly Steps]
+)
+
+// ----------------------------------------------------------------------------
+// 6. EXECUTIVE COMPOSITE PERFORMANCE SCORES
+// ----------------------------------------------------------------------------
+
+[Strava Health Readiness Index] = 
+VAR StepScore = [Step Goal Attainment %] * 40
+VAR SleepScore = COALESCE([Sleep Efficiency %], 90) * 0.35
+VAR SedentaryScore = (1 - [Sedentary Ratio %]) * 25
+RETURN
+    ROUND(StepScore + SleepScore + SedentaryScore, 1)
+
+[Weekday vs Weekend Step Variance %] = 
+VAR WeekdaySteps = CALCULATE([Average Daily Steps], Dim_Date[IsWeekend] = 0)
+VAR WeekendSteps = CALCULATE([Average Daily Steps], Dim_Date[IsWeekend] = 1)
+RETURN
+    DIVIDE(WeekendSteps - WeekdaySteps, WeekdaySteps, 0)

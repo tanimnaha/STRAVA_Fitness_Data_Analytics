@@ -1,0 +1,411 @@
+Id,SleepDay,TotalSleepRecords,TotalMinutesAsleep,TotalTimeInBed,SleepHours,TimeInBedHours,SleepEfficiencyPct,DayOfWeek,Month,MonthName,SleepCategory
+1503960366,2016-04-12,1,327,346,5.45,5.77,94.51,Tuesday,4,April,Short Sleep
+1503960366,2016-04-13,2,384,407,6.4,6.78,94.35,Wednesday,4,April,Short Sleep
+1503960366,2016-04-15,1,412,442,6.87,7.37,93.21,Friday,4,April,Short Sleep
+1503960366,2016-04-16,2,340,367,5.67,6.12,92.64,Saturday,4,April,Short Sleep
+1503960366,2016-04-17,1,700,712,11.67,11.87,98.31,Sunday,4,April,Long Sleep
+1503960366,2016-04-19,1,304,320,5.07,5.33,95.0,Tuesday,4,April,Short Sleep
+1503960366,2016-04-20,1,360,377,6.0,6.28,95.49,Wednesday,4,April,Short Sleep
+1503960366,2016-04-21,1,325,364,5.42,6.07,89.29,Thursday,4,April,Short Sleep
+1503960366,2016-04-23,1,361,384,6.02,6.4,94.01,Saturday,4,April,Short Sleep
+1503960366,2016-04-24,1,430,449,7.17,7.48,95.77,Sunday,4,April,Recommended Range
+1503960366,2016-04-25,1,277,323,4.62,5.38,85.76,Monday,4,April,Very Short Sleep
+1503960366,2016-04-26,1,245,274,4.08,4.57,89.42,Tuesday,4,April,Very Short Sleep
+1503960366,2016-04-28,1,366,393,6.1,6.55,93.13,Thursday,4,April,Short Sleep
+1503960366,2016-04-29,1,341,354,5.68,5.9,96.33,Friday,4,April,Short Sleep
+1503960366,2016-04-30,1,404,425,6.73,7.08,95.06,Saturday,4,April,Short Sleep
+1503960366,2016-05-01,1,369,396,6.15,6.6,93.18,Sunday,5,May,Short Sleep
+1503960366,2016-05-02,1,277,309,4.62,5.15,89.64,Monday,5,May,Very Short Sleep
+1503960366,2016-05-03,1,273,296,4.55,4.93,92.23,Tuesday,5,May,Very Short Sleep
+1503960366,2016-05-05,1,247,264,4.12,4.4,93.56,Thursday,5,May,Very Short Sleep
+1503960366,2016-05-06,1,334,367,5.57,6.12,91.01,Friday,5,May,Short Sleep
+1503960366,2016-05-07,1,331,349,5.52,5.82,94.84,Saturday,5,May,Short Sleep
+1503960366,2016-05-08,1,594,611,9.9,10.18,97.22,Sunday,5,May,Long Sleep
+1503960366,2016-05-09,1,338,342,5.63,5.7,98.83,Monday,5,May,Short Sleep
+1503960366,2016-05-10,1,383,403,6.38,6.72,95.04,Tuesday,5,May,Short Sleep
+1503960366,2016-05-11,1,285,306,4.75,5.1,93.14,Wednesday,5,May,Very Short Sleep
+1644430081,2016-04-29,1,119,127,1.98,2.12,93.7,Friday,4,April,Very Short Sleep
+1644430081,2016-04-30,1,124,142,2.07,2.37,87.32,Saturday,4,April,Very Short Sleep
+1644430081,2016-05-02,1,796,961,13.27,16.02,82.83,Monday,5,May,Long Sleep
+1644430081,2016-05-08,1,137,154,2.28,2.57,88.96,Sunday,5,May,Very Short Sleep
+1844505072,2016-04-15,1,644,961,10.73,16.02,67.01,Friday,4,April,Long Sleep
+1844505072,2016-04-30,1,722,961,12.03,16.02,75.13,Saturday,4,April,Long Sleep
+1844505072,2016-05-01,1,590,961,9.83,16.02,61.39,Sunday,5,May,Long Sleep
+1927972279,2016-04-12,3,750,775,12.5,12.92,96.77,Tuesday,4,April,Long Sleep
+1927972279,2016-04-13,1,398,422,6.63,7.03,94.31,Wednesday,4,April,Short Sleep
+1927972279,2016-04-15,2,475,499,7.92,8.32,95.19,Friday,4,April,Recommended Range
+1927972279,2016-04-26,1,296,315,4.93,5.25,93.97,Tuesday,4,April,Very Short Sleep
+1927972279,2016-04-28,1,166,178,2.77,2.97,93.26,Thursday,4,April,Very Short Sleep
+2026352035,2016-04-12,1,503,546,8.38,9.1,92.12,Tuesday,4,April,Recommended Range
+2026352035,2016-04-13,1,531,565,8.85,9.42,93.98,Wednesday,4,April,Recommended Range
+2026352035,2016-04-14,1,545,568,9.08,9.47,95.95,Thursday,4,April,Long Sleep
+2026352035,2016-04-15,1,523,573,8.72,9.55,91.27,Friday,4,April,Recommended Range
+2026352035,2016-04-16,1,524,567,8.73,9.45,92.42,Saturday,4,April,Recommended Range
+2026352035,2016-04-17,1,437,498,7.28,8.3,87.75,Sunday,4,April,Recommended Range
+2026352035,2016-04-19,1,498,540,8.3,9.0,92.22,Tuesday,4,April,Recommended Range
+2026352035,2016-04-20,1,461,510,7.68,8.5,90.39,Wednesday,4,April,Recommended Range
+2026352035,2016-04-21,1,477,514,7.95,8.57,92.8,Thursday,4,April,Recommended Range
+2026352035,2016-04-22,1,520,545,8.67,9.08,95.41,Friday,4,April,Recommended Range
+2026352035,2016-04-23,1,522,554,8.7,9.23,94.22,Saturday,4,April,Recommended Range
+2026352035,2016-04-24,1,555,591,9.25,9.85,93.91,Sunday,4,April,Long Sleep
+2026352035,2016-04-25,1,506,531,8.43,8.85,95.29,Monday,4,April,Recommended Range
+2026352035,2016-04-27,1,508,545,8.47,9.08,93.21,Wednesday,4,April,Recommended Range
+2026352035,2016-04-28,1,513,545,8.55,9.08,94.13,Thursday,4,April,Recommended Range
+2026352035,2016-04-29,1,490,510,8.17,8.5,96.08,Friday,4,April,Recommended Range
+2026352035,2016-04-30,1,573,607,9.55,10.12,94.4,Saturday,4,April,Long Sleep
+2026352035,2016-05-01,1,527,546,8.78,9.1,96.52,Sunday,5,May,Recommended Range
+2026352035,2016-05-02,1,511,543,8.52,9.05,94.11,Monday,5,May,Recommended Range
+2026352035,2016-05-04,1,538,560,8.97,9.33,96.07,Wednesday,5,May,Recommended Range
+2026352035,2016-05-05,1,468,485,7.8,8.08,96.49,Thursday,5,May,Recommended Range
+2026352035,2016-05-06,1,524,548,8.73,9.13,95.62,Friday,5,May,Recommended Range
+2026352035,2016-05-07,1,511,521,8.52,8.68,98.08,Saturday,5,May,Recommended Range
+2026352035,2016-05-08,1,541,568,9.02,9.47,95.25,Sunday,5,May,Long Sleep
+2026352035,2016-05-09,1,531,556,8.85,9.27,95.5,Monday,5,May,Recommended Range
+2026352035,2016-05-10,1,357,380,5.95,6.33,93.95,Tuesday,5,May,Short Sleep
+2026352035,2016-05-11,1,523,553,8.72,9.22,94.58,Wednesday,5,May,Recommended Range
+2026352035,2016-05-12,1,456,485,7.6,8.08,94.02,Thursday,5,May,Recommended Range
+2320127002,2016-04-23,1,61,69,1.02,1.15,88.41,Saturday,4,April,Very Short Sleep
+2347167796,2016-04-13,1,467,531,7.78,8.85,87.95,Wednesday,4,April,Recommended Range
+2347167796,2016-04-14,1,445,489,7.42,8.15,91.0,Thursday,4,April,Recommended Range
+2347167796,2016-04-15,1,452,504,7.53,8.4,89.68,Friday,4,April,Recommended Range
+2347167796,2016-04-17,1,556,602,9.27,10.03,92.36,Sunday,4,April,Long Sleep
+2347167796,2016-04-18,1,500,557,8.33,9.28,89.77,Monday,4,April,Recommended Range
+2347167796,2016-04-19,1,465,514,7.75,8.57,90.47,Tuesday,4,April,Recommended Range
+2347167796,2016-04-21,1,460,484,7.67,8.07,95.04,Thursday,4,April,Recommended Range
+2347167796,2016-04-22,1,405,461,6.75,7.68,87.85,Friday,4,April,Short Sleep
+2347167796,2016-04-23,1,374,386,6.23,6.43,96.89,Saturday,4,April,Short Sleep
+2347167796,2016-04-24,1,442,459,7.37,7.65,96.3,Sunday,4,April,Recommended Range
+2347167796,2016-04-25,1,433,471,7.22,7.85,91.93,Monday,4,April,Recommended Range
+2347167796,2016-04-26,1,436,490,7.27,8.17,88.98,Tuesday,4,April,Recommended Range
+2347167796,2016-04-27,1,448,499,7.47,8.32,89.78,Wednesday,4,April,Recommended Range
+2347167796,2016-04-28,1,408,450,6.8,7.5,90.67,Thursday,4,April,Short Sleep
+2347167796,2016-04-29,1,411,473,6.85,7.88,86.89,Friday,4,April,Short Sleep
+3977333714,2016-04-12,1,274,469,4.57,7.82,58.42,Tuesday,4,April,Very Short Sleep
+3977333714,2016-04-13,2,295,456,4.92,7.6,64.69,Wednesday,4,April,Very Short Sleep
+3977333714,2016-04-14,1,291,397,4.85,6.62,73.3,Thursday,4,April,Very Short Sleep
+3977333714,2016-04-15,1,424,556,7.07,9.27,76.26,Friday,4,April,Recommended Range
+3977333714,2016-04-16,1,283,510,4.72,8.5,55.49,Saturday,4,April,Very Short Sleep
+3977333714,2016-04-17,1,381,566,6.35,9.43,67.31,Sunday,4,April,Short Sleep
+3977333714,2016-04-18,2,412,522,6.87,8.7,78.93,Monday,4,April,Short Sleep
+3977333714,2016-04-19,1,219,395,3.65,6.58,55.44,Tuesday,4,April,Very Short Sleep
+3977333714,2016-04-20,2,152,305,2.53,5.08,49.84,Wednesday,4,April,Very Short Sleep
+3977333714,2016-04-21,1,332,512,5.53,8.53,64.84,Thursday,4,April,Short Sleep
+3977333714,2016-04-22,1,355,476,5.92,7.93,74.58,Friday,4,April,Short Sleep
+3977333714,2016-04-23,1,235,372,3.92,6.2,63.17,Saturday,4,April,Very Short Sleep
+3977333714,2016-04-24,1,310,526,5.17,8.77,58.94,Sunday,4,April,Short Sleep
+3977333714,2016-04-25,1,262,467,4.37,7.78,56.1,Monday,4,April,Very Short Sleep
+3977333714,2016-04-26,1,250,371,4.17,6.18,67.39,Tuesday,4,April,Very Short Sleep
+3977333714,2016-04-27,1,349,540,5.82,9.0,64.63,Wednesday,4,April,Short Sleep
+3977333714,2016-04-28,1,261,423,4.35,7.05,61.7,Thursday,4,April,Very Short Sleep
+3977333714,2016-04-29,1,333,478,5.55,7.97,69.67,Friday,4,April,Short Sleep
+3977333714,2016-04-30,1,237,382,3.95,6.37,62.04,Saturday,4,April,Very Short Sleep
+3977333714,2016-05-01,1,383,626,6.38,10.43,61.18,Sunday,5,May,Short Sleep
+3977333714,2016-05-02,1,230,384,3.83,6.4,59.9,Monday,5,May,Very Short Sleep
+3977333714,2016-05-03,1,292,500,4.87,8.33,58.4,Tuesday,5,May,Very Short Sleep
+3977333714,2016-05-04,1,213,336,3.55,5.6,63.39,Wednesday,5,May,Very Short Sleep
+3977333714,2016-05-05,1,318,480,5.3,8.0,66.25,Thursday,5,May,Short Sleep
+3977333714,2016-05-06,1,323,512,5.38,8.53,63.09,Friday,5,May,Short Sleep
+3977333714,2016-05-07,1,237,443,3.95,7.38,53.5,Saturday,5,May,Very Short Sleep
+3977333714,2016-05-08,2,259,456,4.32,7.6,56.8,Sunday,5,May,Very Short Sleep
+3977333714,2016-05-10,1,312,452,5.2,7.53,69.03,Tuesday,5,May,Short Sleep
+4020332650,2016-04-12,1,501,541,8.35,9.02,92.61,Tuesday,4,April,Recommended Range
+4020332650,2016-04-16,1,77,77,1.28,1.28,100.0,Saturday,4,April,Very Short Sleep
+4020332650,2016-05-03,1,322,332,5.37,5.53,96.99,Tuesday,5,May,Short Sleep
+4020332650,2016-05-04,1,478,536,7.97,8.93,89.18,Wednesday,5,May,Recommended Range
+4020332650,2016-05-05,1,226,248,3.77,4.13,91.13,Thursday,5,May,Very Short Sleep
+4020332650,2016-05-06,1,385,408,6.42,6.8,94.36,Friday,5,May,Short Sleep
+4020332650,2016-05-08,1,364,402,6.07,6.7,90.55,Sunday,5,May,Short Sleep
+4020332650,2016-05-10,1,442,494,7.37,8.23,89.47,Tuesday,5,May,Recommended Range
+4319703577,2016-04-14,1,535,557,8.92,9.28,96.05,Thursday,4,April,Recommended Range
+4319703577,2016-04-15,1,465,491,7.75,8.18,94.7,Friday,4,April,Recommended Range
+4319703577,2016-04-16,1,506,522,8.43,8.7,96.93,Saturday,4,April,Recommended Range
+4319703577,2016-04-18,1,515,551,8.58,9.18,93.47,Monday,4,April,Recommended Range
+4319703577,2016-04-19,2,461,498,7.68,8.3,92.57,Tuesday,4,April,Recommended Range
+4319703577,2016-04-20,1,523,543,8.72,9.05,96.32,Wednesday,4,April,Recommended Range
+4319703577,2016-04-21,1,59,65,0.98,1.08,90.77,Thursday,4,April,Very Short Sleep
+4319703577,2016-04-22,1,533,550,8.88,9.17,96.91,Friday,4,April,Recommended Range
+4319703577,2016-04-23,1,692,722,11.53,12.03,95.84,Saturday,4,April,Long Sleep
+4319703577,2016-04-24,1,467,501,7.78,8.35,93.21,Sunday,4,April,Recommended Range
+4319703577,2016-04-25,1,488,506,8.13,8.43,96.44,Monday,4,April,Recommended Range
+4319703577,2016-04-26,1,505,516,8.42,8.6,97.87,Tuesday,4,April,Recommended Range
+4319703577,2016-04-27,1,286,307,4.77,5.12,93.16,Wednesday,4,April,Very Short Sleep
+4319703577,2016-04-28,1,497,522,8.28,8.7,95.21,Thursday,4,April,Recommended Range
+4319703577,2016-04-29,1,523,546,8.72,9.1,95.79,Friday,4,April,Recommended Range
+4319703577,2016-04-30,1,490,516,8.17,8.6,94.96,Saturday,4,April,Recommended Range
+4319703577,2016-05-01,1,484,500,8.07,8.33,96.8,Sunday,5,May,Recommended Range
+4319703577,2016-05-02,1,478,506,7.97,8.43,94.47,Monday,5,May,Recommended Range
+4319703577,2016-05-03,1,474,512,7.9,8.53,92.58,Tuesday,5,May,Recommended Range
+4319703577,2016-05-06,1,450,491,7.5,8.18,91.65,Friday,5,May,Recommended Range
+4319703577,2016-05-07,1,507,530,8.45,8.83,95.66,Saturday,5,May,Recommended Range
+4319703577,2016-05-08,1,602,638,10.03,10.63,94.36,Sunday,5,May,Long Sleep
+4319703577,2016-05-09,1,535,565,8.92,9.42,94.69,Monday,5,May,Recommended Range
+4319703577,2016-05-10,1,487,517,8.12,8.62,94.2,Tuesday,5,May,Recommended Range
+4319703577,2016-05-11,1,529,558,8.82,9.3,94.8,Wednesday,5,May,Recommended Range
+4319703577,2016-05-12,1,302,321,5.03,5.35,94.08,Thursday,5,May,Short Sleep
+4388161847,2016-04-15,1,499,526,8.32,8.77,94.87,Friday,4,April,Recommended Range
+4388161847,2016-04-16,2,426,448,7.1,7.47,95.09,Saturday,4,April,Recommended Range
+4388161847,2016-04-17,2,619,641,10.32,10.68,96.57,Sunday,4,April,Long Sleep
+4388161847,2016-04-18,1,99,104,1.65,1.73,95.19,Monday,4,April,Very Short Sleep
+4388161847,2016-04-19,1,329,338,5.48,5.63,97.34,Tuesday,4,April,Short Sleep
+4388161847,2016-04-20,1,421,451,7.02,7.52,93.35,Wednesday,4,April,Recommended Range
+4388161847,2016-04-21,1,442,458,7.37,7.63,96.51,Thursday,4,April,Recommended Range
+4388161847,2016-04-22,1,82,85,1.37,1.42,96.47,Friday,4,April,Very Short Sleep
+4388161847,2016-04-23,1,478,501,7.97,8.35,95.41,Saturday,4,April,Recommended Range
+4388161847,2016-04-24,3,552,595,9.2,9.92,92.77,Sunday,4,April,Long Sleep
+4388161847,2016-04-26,1,319,346,5.32,5.77,92.2,Tuesday,4,April,Short Sleep
+4388161847,2016-04-27,1,439,500,7.32,8.33,87.8,Wednesday,4,April,Recommended Range
+4388161847,2016-04-28,1,428,458,7.13,7.63,93.45,Thursday,4,April,Recommended Range
+4388161847,2016-04-30,2,409,430,6.82,7.17,95.12,Saturday,4,April,Short Sleep
+4388161847,2016-05-01,1,547,597,9.12,9.95,91.62,Sunday,5,May,Long Sleep
+4388161847,2016-05-02,2,368,376,6.13,6.27,97.87,Monday,5,May,Short Sleep
+4388161847,2016-05-04,1,390,414,6.5,6.9,94.2,Wednesday,5,May,Short Sleep
+4388161847,2016-05-05,1,471,495,7.85,8.25,95.15,Thursday,5,May,Recommended Range
+4388161847,2016-05-07,1,472,496,7.87,8.27,95.16,Saturday,5,May,Recommended Range
+4388161847,2016-05-08,2,529,541,8.82,9.02,97.78,Sunday,5,May,Recommended Range
+4388161847,2016-05-09,1,62,65,1.03,1.08,95.38,Monday,5,May,Very Short Sleep
+4388161847,2016-05-10,1,354,375,5.9,6.25,94.4,Tuesday,5,May,Short Sleep
+4388161847,2016-05-11,1,469,494,7.82,8.23,94.94,Wednesday,5,May,Recommended Range
+4445114986,2016-04-12,2,429,457,7.15,7.62,93.87,Tuesday,4,April,Recommended Range
+4445114986,2016-04-13,2,370,406,6.17,6.77,91.13,Wednesday,4,April,Short Sleep
+4445114986,2016-04-14,1,441,492,7.35,8.2,89.63,Thursday,4,April,Recommended Range
+4445114986,2016-04-15,2,337,379,5.62,6.32,88.92,Friday,4,April,Short Sleep
+4445114986,2016-04-16,1,462,499,7.7,8.32,92.59,Saturday,4,April,Recommended Range
+4445114986,2016-04-17,1,98,107,1.63,1.78,91.59,Sunday,4,April,Very Short Sleep
+4445114986,2016-04-19,2,388,424,6.47,7.07,91.51,Tuesday,4,April,Short Sleep
+4445114986,2016-04-20,1,439,462,7.32,7.7,95.02,Wednesday,4,April,Recommended Range
+4445114986,2016-04-21,1,436,469,7.27,7.82,92.96,Thursday,4,April,Recommended Range
+4445114986,2016-04-22,1,388,417,6.47,6.95,93.05,Friday,4,April,Short Sleep
+4445114986,2016-04-25,1,328,345,5.47,5.75,95.07,Monday,4,April,Short Sleep
+4445114986,2016-04-26,2,353,391,5.88,6.52,90.28,Tuesday,4,April,Short Sleep
+4445114986,2016-04-27,1,332,374,5.53,6.23,88.77,Wednesday,4,April,Short Sleep
+4445114986,2016-04-28,1,419,442,6.98,7.37,94.8,Thursday,4,April,Short Sleep
+4445114986,2016-04-29,1,106,108,1.77,1.8,98.15,Friday,4,April,Very Short Sleep
+4445114986,2016-04-30,1,322,353,5.37,5.88,91.22,Saturday,4,April,Short Sleep
+4445114986,2016-05-01,2,439,459,7.32,7.65,95.64,Sunday,5,May,Recommended Range
+4445114986,2016-05-02,1,502,542,8.37,9.03,92.62,Monday,5,May,Recommended Range
+4445114986,2016-05-03,2,417,450,6.95,7.5,92.67,Tuesday,5,May,Short Sleep
+4445114986,2016-05-04,2,337,363,5.62,6.05,92.84,Wednesday,5,May,Short Sleep
+4445114986,2016-05-05,2,462,513,7.7,8.55,90.06,Thursday,5,May,Recommended Range
+4445114986,2016-05-06,2,374,402,6.23,6.7,93.03,Friday,5,May,Short Sleep
+4445114986,2016-05-07,2,401,436,6.68,7.27,91.97,Saturday,5,May,Short Sleep
+4445114986,2016-05-08,1,361,391,6.02,6.52,92.33,Sunday,5,May,Short Sleep
+4445114986,2016-05-09,1,457,533,7.62,8.88,85.74,Monday,5,May,Recommended Range
+4445114986,2016-05-10,1,405,426,6.75,7.1,95.07,Tuesday,5,May,Short Sleep
+4445114986,2016-05-11,1,499,530,8.32,8.83,94.15,Wednesday,5,May,Recommended Range
+4445114986,2016-05-12,1,483,501,8.05,8.35,96.41,Thursday,5,May,Recommended Range
+4558609924,2016-04-21,1,126,137,2.1,2.28,91.97,Thursday,4,April,Very Short Sleep
+4558609924,2016-04-26,1,103,121,1.72,2.02,85.12,Tuesday,4,April,Very Short Sleep
+4558609924,2016-04-29,1,171,179,2.85,2.98,95.53,Friday,4,April,Very Short Sleep
+4558609924,2016-05-01,1,115,129,1.92,2.15,89.15,Sunday,5,May,Very Short Sleep
+4558609924,2016-05-08,1,123,134,2.05,2.23,91.79,Sunday,5,May,Very Short Sleep
+4702921684,2016-04-12,1,425,439,7.08,7.32,96.81,Tuesday,4,April,Recommended Range
+4702921684,2016-04-13,2,400,430,6.67,7.17,93.02,Wednesday,4,April,Short Sleep
+4702921684,2016-04-14,1,384,415,6.4,6.92,92.53,Thursday,4,April,Short Sleep
+4702921684,2016-04-15,1,253,257,4.22,4.28,98.44,Friday,4,April,Very Short Sleep
+4702921684,2016-04-16,2,382,406,6.37,6.77,94.09,Saturday,4,April,Short Sleep
+4702921684,2016-04-17,1,591,612,9.85,10.2,96.57,Sunday,4,April,Long Sleep
+4702921684,2016-04-18,1,293,312,4.88,5.2,93.91,Monday,4,April,Very Short Sleep
+4702921684,2016-04-19,1,457,487,7.62,8.12,93.84,Tuesday,4,April,Recommended Range
+4702921684,2016-04-20,1,454,468,7.57,7.8,97.01,Wednesday,4,April,Recommended Range
+4702921684,2016-04-21,1,425,434,7.08,7.23,97.93,Thursday,4,April,Recommended Range
+4702921684,2016-04-23,1,465,475,7.75,7.92,97.89,Saturday,4,April,Recommended Range
+4702921684,2016-04-24,1,480,506,8.0,8.43,94.86,Sunday,4,April,Recommended Range
+4702921684,2016-04-25,1,370,380,6.17,6.33,97.37,Monday,4,April,Short Sleep
+4702921684,2016-04-26,1,421,429,7.02,7.15,98.14,Tuesday,4,April,Recommended Range
+4702921684,2016-04-27,1,432,449,7.2,7.48,96.21,Wednesday,4,April,Recommended Range
+4702921684,2016-04-28,1,442,461,7.37,7.68,95.88,Thursday,4,April,Recommended Range
+4702921684,2016-04-29,1,433,447,7.22,7.45,96.87,Friday,4,April,Recommended Range
+4702921684,2016-04-30,1,479,501,7.98,8.35,95.61,Saturday,4,April,Recommended Range
+4702921684,2016-05-03,1,327,373,5.45,6.22,87.67,Tuesday,5,May,Short Sleep
+4702921684,2016-05-04,1,412,434,6.87,7.23,94.93,Wednesday,5,May,Short Sleep
+4702921684,2016-05-05,1,414,428,6.9,7.13,96.73,Thursday,5,May,Short Sleep
+4702921684,2016-05-06,1,404,449,6.73,7.48,89.98,Friday,5,May,Short Sleep
+4702921684,2016-05-07,1,520,543,8.67,9.05,95.76,Saturday,5,May,Recommended Range
+4702921684,2016-05-09,1,435,458,7.25,7.63,94.98,Monday,5,May,Recommended Range
+4702921684,2016-05-10,1,416,431,6.93,7.18,96.52,Tuesday,5,May,Short Sleep
+4702921684,2016-05-11,1,354,366,5.9,6.1,96.72,Wednesday,5,May,Short Sleep
+4702921684,2016-05-12,1,404,442,6.73,7.37,91.4,Thursday,5,May,Short Sleep
+5553957443,2016-04-12,1,441,464,7.35,7.73,95.04,Tuesday,4,April,Recommended Range
+5553957443,2016-04-13,2,455,488,7.58,8.13,93.24,Wednesday,4,April,Recommended Range
+5553957443,2016-04-14,1,357,418,5.95,6.97,85.41,Thursday,4,April,Short Sleep
+5553957443,2016-04-15,1,377,409,6.28,6.82,92.18,Friday,4,April,Short Sleep
+5553957443,2016-04-16,2,651,686,10.85,11.43,94.9,Saturday,4,April,Long Sleep
+5553957443,2016-04-17,1,350,402,5.83,6.7,87.06,Sunday,4,April,Short Sleep
+5553957443,2016-04-18,2,520,541,8.67,9.02,96.12,Monday,4,April,Recommended Range
+5553957443,2016-04-19,1,357,410,5.95,6.83,87.07,Tuesday,4,April,Short Sleep
+5553957443,2016-04-20,1,658,678,10.97,11.3,97.05,Wednesday,4,April,Long Sleep
+5553957443,2016-04-21,1,399,431,6.65,7.18,92.58,Thursday,4,April,Short Sleep
+5553957443,2016-04-22,1,322,353,5.37,5.88,91.22,Friday,4,April,Short Sleep
+5553957443,2016-04-23,2,631,725,10.52,12.08,87.03,Saturday,4,April,Long Sleep
+5553957443,2016-04-24,2,553,640,9.22,10.67,86.41,Sunday,4,April,Long Sleep
+5553957443,2016-04-25,1,433,468,7.22,7.8,92.52,Monday,4,April,Recommended Range
+5553957443,2016-04-26,1,412,453,6.87,7.55,90.95,Tuesday,4,April,Short Sleep
+5553957443,2016-04-27,1,347,391,5.78,6.52,88.75,Wednesday,4,April,Short Sleep
+5553957443,2016-04-28,1,421,457,7.02,7.62,92.12,Thursday,4,April,Recommended Range
+5553957443,2016-04-29,1,450,495,7.5,8.25,90.91,Friday,4,April,Recommended Range
+5553957443,2016-04-30,2,775,843,12.92,14.05,91.93,Saturday,4,April,Long Sleep
+5553957443,2016-05-01,2,622,686,10.37,11.43,90.67,Sunday,5,May,Long Sleep
+5553957443,2016-05-02,1,409,471,6.82,7.85,86.84,Monday,5,May,Short Sleep
+5553957443,2016-05-03,1,380,429,6.33,7.15,88.58,Tuesday,5,May,Short Sleep
+5553957443,2016-05-04,1,447,470,7.45,7.83,95.11,Wednesday,5,May,Recommended Range
+5553957443,2016-05-05,1,419,464,6.98,7.73,90.3,Thursday,5,May,Short Sleep
+5553957443,2016-05-06,1,400,434,6.67,7.23,92.17,Friday,5,May,Short Sleep
+5553957443,2016-05-07,1,442,470,7.37,7.83,94.04,Saturday,5,May,Recommended Range
+5553957443,2016-05-08,1,568,608,9.47,10.13,93.42,Sunday,5,May,Long Sleep
+5553957443,2016-05-09,1,453,494,7.55,8.23,91.7,Monday,5,May,Recommended Range
+5553957443,2016-05-10,1,418,443,6.97,7.38,94.36,Tuesday,5,May,Short Sleep
+5553957443,2016-05-11,1,463,486,7.72,8.1,95.27,Wednesday,5,May,Recommended Range
+5553957443,2016-05-12,1,438,475,7.3,7.92,92.21,Thursday,5,May,Recommended Range
+5577150313,2016-04-12,1,419,438,6.98,7.3,95.66,Tuesday,4,April,Short Sleep
+5577150313,2016-04-13,1,432,458,7.2,7.63,94.32,Wednesday,4,April,Recommended Range
+5577150313,2016-04-14,1,477,497,7.95,8.28,95.98,Thursday,4,April,Recommended Range
+5577150313,2016-04-15,1,392,413,6.53,6.88,94.92,Friday,4,April,Short Sleep
+5577150313,2016-04-16,1,406,445,6.77,7.42,91.24,Saturday,4,April,Short Sleep
+5577150313,2016-04-17,1,549,583,9.15,9.72,94.17,Sunday,4,April,Long Sleep
+5577150313,2016-04-18,1,527,553,8.78,9.22,95.3,Monday,4,April,Recommended Range
+5577150313,2016-04-19,1,449,465,7.48,7.75,96.56,Tuesday,4,April,Recommended Range
+5577150313,2016-04-20,1,447,480,7.45,8.0,93.12,Wednesday,4,April,Recommended Range
+5577150313,2016-04-21,1,414,437,6.9,7.28,94.74,Thursday,4,April,Short Sleep
+5577150313,2016-04-22,1,338,366,5.63,6.1,92.35,Friday,4,April,Short Sleep
+5577150313,2016-04-23,1,384,402,6.4,6.7,95.52,Saturday,4,April,Short Sleep
+5577150313,2016-04-24,1,543,615,9.05,10.25,88.29,Sunday,4,April,Long Sleep
+5577150313,2016-04-25,1,421,461,7.02,7.68,91.32,Monday,4,April,Recommended Range
+5577150313,2016-04-26,1,354,377,5.9,6.28,93.9,Tuesday,4,April,Short Sleep
+5577150313,2016-04-27,1,424,452,7.07,7.53,93.81,Wednesday,4,April,Recommended Range
+5577150313,2016-04-28,1,361,372,6.02,6.2,97.04,Thursday,4,April,Short Sleep
+5577150313,2016-04-29,1,459,485,7.65,8.08,94.64,Friday,4,April,Recommended Range
+5577150313,2016-04-30,1,412,433,6.87,7.22,95.15,Saturday,4,April,Short Sleep
+5577150313,2016-05-01,1,379,398,6.32,6.63,95.23,Sunday,5,May,Short Sleep
+5577150313,2016-05-02,2,525,553,8.75,9.22,94.94,Monday,5,May,Recommended Range
+5577150313,2016-05-03,1,508,543,8.47,9.05,93.55,Tuesday,5,May,Recommended Range
+5577150313,2016-05-04,1,603,634,10.05,10.57,95.11,Wednesday,5,May,Long Sleep
+5577150313,2016-05-05,1,74,78,1.23,1.3,94.87,Thursday,5,May,Very Short Sleep
+5577150313,2016-05-10,1,504,562,8.4,9.37,89.68,Tuesday,5,May,Recommended Range
+5577150313,2016-05-11,1,431,476,7.18,7.93,90.55,Wednesday,5,May,Recommended Range
+6117666160,2016-04-16,1,380,398,6.33,6.63,95.48,Saturday,4,April,Short Sleep
+6117666160,2016-04-17,2,336,350,5.6,5.83,96.0,Sunday,4,April,Short Sleep
+6117666160,2016-04-18,2,493,510,8.22,8.5,96.67,Monday,4,April,Recommended Range
+6117666160,2016-04-19,1,465,492,7.75,8.2,94.51,Tuesday,4,April,Recommended Range
+6117666160,2016-04-20,1,474,502,7.9,8.37,94.42,Wednesday,4,April,Recommended Range
+6117666160,2016-04-21,1,508,550,8.47,9.17,92.36,Thursday,4,April,Recommended Range
+6117666160,2016-04-22,1,480,546,8.0,9.1,87.91,Friday,4,April,Recommended Range
+6117666160,2016-04-23,1,492,539,8.2,8.98,91.28,Saturday,4,April,Recommended Range
+6117666160,2016-04-24,1,353,367,5.88,6.12,96.19,Sunday,4,April,Short Sleep
+6117666160,2016-04-27,1,542,557,9.03,9.28,97.31,Wednesday,4,April,Long Sleep
+6117666160,2016-04-28,1,393,416,6.55,6.93,94.47,Thursday,4,April,Short Sleep
+6117666160,2016-04-29,1,600,636,10.0,10.6,94.34,Friday,4,April,Long Sleep
+6117666160,2016-05-01,1,507,575,8.45,9.58,88.17,Sunday,5,May,Recommended Range
+6117666160,2016-05-05,1,392,415,6.53,6.92,94.46,Thursday,5,May,Short Sleep
+6117666160,2016-05-06,2,658,698,10.97,11.63,94.27,Friday,5,May,Long Sleep
+6117666160,2016-05-07,2,498,507,8.3,8.45,98.22,Saturday,5,May,Recommended Range
+6117666160,2016-05-08,1,555,603,9.25,10.05,92.04,Sunday,5,May,Long Sleep
+6117666160,2016-05-09,1,492,522,8.2,8.7,94.25,Monday,5,May,Recommended Range
+6775888955,2016-04-13,1,235,260,3.92,4.33,90.38,Wednesday,4,April,Very Short Sleep
+6775888955,2016-04-14,1,423,441,7.05,7.35,95.92,Thursday,4,April,Recommended Range
+6775888955,2016-04-15,1,391,406,6.52,6.77,96.31,Friday,4,April,Short Sleep
+6962181067,2016-04-12,1,366,387,6.1,6.45,94.57,Tuesday,4,April,Short Sleep
+6962181067,2016-04-13,3,630,679,10.5,11.32,92.78,Wednesday,4,April,Long Sleep
+6962181067,2016-04-14,2,508,535,8.47,8.92,94.95,Thursday,4,April,Recommended Range
+6962181067,2016-04-15,1,370,386,6.17,6.43,95.85,Friday,4,April,Short Sleep
+6962181067,2016-04-16,1,357,366,5.95,6.1,97.54,Saturday,4,April,Short Sleep
+6962181067,2016-04-17,1,427,446,7.12,7.43,95.74,Sunday,4,April,Recommended Range
+6962181067,2016-04-18,1,442,458,7.37,7.63,96.51,Monday,4,April,Recommended Range
+6962181067,2016-04-19,1,476,535,7.93,8.92,88.97,Tuesday,4,April,Recommended Range
+6962181067,2016-04-20,1,418,424,6.97,7.07,98.58,Wednesday,4,April,Short Sleep
+6962181067,2016-04-21,1,451,457,7.52,7.62,98.69,Thursday,4,April,Recommended Range
+6962181067,2016-04-22,1,425,435,7.08,7.25,97.7,Friday,4,April,Recommended Range
+6962181067,2016-04-23,1,528,546,8.8,9.1,96.7,Saturday,4,April,Recommended Range
+6962181067,2016-04-24,1,511,514,8.52,8.57,99.42,Sunday,4,April,Recommended Range
+6962181067,2016-04-25,1,400,415,6.67,6.92,96.39,Monday,4,April,Short Sleep
+6962181067,2016-04-26,1,441,446,7.35,7.43,98.88,Tuesday,4,April,Recommended Range
+6962181067,2016-04-27,1,455,467,7.58,7.78,97.43,Wednesday,4,April,Recommended Range
+6962181067,2016-04-28,1,440,453,7.33,7.55,97.13,Thursday,4,April,Recommended Range
+6962181067,2016-04-29,1,433,447,7.22,7.45,96.87,Friday,4,April,Recommended Range
+6962181067,2016-04-30,1,422,424,7.03,7.07,99.53,Saturday,4,April,Recommended Range
+6962181067,2016-05-01,1,411,426,6.85,7.1,96.48,Sunday,5,May,Short Sleep
+6962181067,2016-05-02,1,466,482,7.77,8.03,96.68,Monday,5,May,Recommended Range
+6962181067,2016-05-03,1,394,418,6.57,6.97,94.26,Tuesday,5,May,Short Sleep
+6962181067,2016-05-04,1,442,455,7.37,7.58,97.14,Wednesday,5,May,Recommended Range
+6962181067,2016-05-05,1,467,491,7.78,8.18,95.11,Thursday,5,May,Recommended Range
+6962181067,2016-05-06,1,443,462,7.38,7.7,95.89,Friday,5,May,Recommended Range
+6962181067,2016-05-07,1,298,334,4.97,5.57,89.22,Saturday,5,May,Very Short Sleep
+6962181067,2016-05-08,1,541,569,9.02,9.48,95.08,Sunday,5,May,Long Sleep
+6962181067,2016-05-09,1,489,497,8.15,8.28,98.39,Monday,5,May,Recommended Range
+6962181067,2016-05-10,1,469,481,7.82,8.02,97.51,Tuesday,5,May,Recommended Range
+6962181067,2016-05-11,1,452,480,7.53,8.0,94.17,Wednesday,5,May,Recommended Range
+6962181067,2016-05-12,1,516,535,8.6,8.92,96.45,Thursday,5,May,Recommended Range
+7007744171,2016-04-16,1,79,82,1.32,1.37,96.34,Saturday,4,April,Very Short Sleep
+7007744171,2016-05-01,1,58,61,0.97,1.02,95.08,Sunday,5,May,Very Short Sleep
+7086361926,2016-04-12,1,514,525,8.57,8.75,97.9,Tuesday,4,April,Recommended Range
+7086361926,2016-04-13,1,451,465,7.52,7.75,96.99,Wednesday,4,April,Recommended Range
+7086361926,2016-04-14,1,472,476,7.87,7.93,99.16,Thursday,4,April,Recommended Range
+7086361926,2016-04-15,1,377,386,6.28,6.43,97.67,Friday,4,April,Short Sleep
+7086361926,2016-04-19,1,472,483,7.87,8.05,97.72,Tuesday,4,April,Recommended Range
+7086361926,2016-04-20,1,492,502,8.2,8.37,98.01,Wednesday,4,April,Recommended Range
+7086361926,2016-04-21,1,390,411,6.5,6.85,94.89,Thursday,4,April,Short Sleep
+7086361926,2016-04-22,1,428,448,7.13,7.47,95.54,Friday,4,April,Recommended Range
+7086361926,2016-04-24,1,681,704,11.35,11.73,96.73,Sunday,4,April,Long Sleep
+7086361926,2016-04-25,1,446,447,7.43,7.45,99.78,Monday,4,April,Recommended Range
+7086361926,2016-04-26,1,485,500,8.08,8.33,97.0,Tuesday,4,April,Recommended Range
+7086361926,2016-04-27,1,469,479,7.82,7.98,97.91,Wednesday,4,April,Recommended Range
+7086361926,2016-04-28,1,354,367,5.9,6.12,96.46,Thursday,4,April,Short Sleep
+7086361926,2016-04-30,1,485,489,8.08,8.15,99.18,Saturday,4,April,Recommended Range
+7086361926,2016-05-01,1,388,407,6.47,6.78,95.33,Sunday,5,May,Short Sleep
+7086361926,2016-05-02,1,440,459,7.33,7.65,95.86,Monday,5,May,Recommended Range
+7086361926,2016-05-03,1,456,461,7.6,7.68,98.92,Tuesday,5,May,Recommended Range
+7086361926,2016-05-04,1,420,436,7.0,7.27,96.33,Wednesday,5,May,Recommended Range
+7086361926,2016-05-06,1,322,333,5.37,5.55,96.7,Friday,5,May,Short Sleep
+7086361926,2016-05-07,1,530,548,8.83,9.13,96.72,Saturday,5,May,Recommended Range
+7086361926,2016-05-08,1,481,510,8.02,8.5,94.31,Sunday,5,May,Recommended Range
+7086361926,2016-05-09,1,427,438,7.12,7.3,97.49,Monday,5,May,Recommended Range
+7086361926,2016-05-11,1,451,463,7.52,7.72,97.41,Wednesday,5,May,Recommended Range
+7086361926,2016-05-12,1,444,457,7.4,7.62,97.16,Thursday,5,May,Recommended Range
+8053475328,2016-04-20,1,486,493,8.1,8.22,98.58,Wednesday,4,April,Recommended Range
+8053475328,2016-04-23,1,331,337,5.52,5.62,98.22,Saturday,4,April,Short Sleep
+8053475328,2016-05-07,1,74,75,1.23,1.25,98.67,Saturday,5,May,Very Short Sleep
+8378563200,2016-04-12,1,338,356,5.63,5.93,94.94,Tuesday,4,April,Short Sleep
+8378563200,2016-04-13,2,447,487,7.45,8.12,91.79,Wednesday,4,April,Recommended Range
+8378563200,2016-04-14,1,424,455,7.07,7.58,93.19,Thursday,4,April,Recommended Range
+8378563200,2016-04-15,1,513,533,8.55,8.88,96.25,Friday,4,April,Recommended Range
+8378563200,2016-04-16,2,611,689,10.18,11.48,88.68,Saturday,4,April,Long Sleep
+8378563200,2016-04-17,2,525,591,8.75,9.85,88.83,Sunday,4,April,Recommended Range
+8378563200,2016-04-18,1,398,451,6.63,7.52,88.25,Monday,4,April,Short Sleep
+8378563200,2016-04-19,1,387,421,6.45,7.02,91.92,Tuesday,4,April,Short Sleep
+8378563200,2016-04-20,1,381,409,6.35,6.82,93.15,Wednesday,4,April,Short Sleep
+8378563200,2016-04-21,1,396,417,6.6,6.95,94.96,Thursday,4,April,Short Sleep
+8378563200,2016-04-22,1,441,469,7.35,7.82,94.03,Friday,4,April,Recommended Range
+8378563200,2016-04-23,1,565,591,9.42,9.85,95.6,Saturday,4,April,Long Sleep
+8378563200,2016-04-24,1,458,492,7.63,8.2,93.09,Sunday,4,April,Recommended Range
+8378563200,2016-04-25,1,388,402,6.47,6.7,96.52,Monday,4,April,Short Sleep
+8378563200,2016-04-26,1,550,584,9.17,9.73,94.18,Tuesday,4,April,Long Sleep
+8378563200,2016-04-27,1,531,600,8.85,10.0,88.5,Wednesday,4,April,Recommended Range
+8378563200,2016-04-28,1,506,556,8.43,9.27,91.01,Thursday,4,April,Recommended Range
+8378563200,2016-04-29,1,527,562,8.78,9.37,93.77,Friday,4,April,Recommended Range
+8378563200,2016-04-30,1,468,555,7.8,9.25,84.32,Saturday,4,April,Recommended Range
+8378563200,2016-05-01,1,475,539,7.92,8.98,88.13,Sunday,5,May,Recommended Range
+8378563200,2016-05-02,1,351,385,5.85,6.42,91.17,Monday,5,May,Short Sleep
+8378563200,2016-05-03,1,405,429,6.75,7.15,94.41,Tuesday,5,May,Short Sleep
+8378563200,2016-05-04,1,441,477,7.35,7.95,92.45,Wednesday,5,May,Recommended Range
+8378563200,2016-05-05,1,381,417,6.35,6.95,91.37,Thursday,5,May,Short Sleep
+8378563200,2016-05-06,1,323,355,5.38,5.92,90.99,Friday,5,May,Short Sleep
+8378563200,2016-05-07,2,459,513,7.65,8.55,89.47,Saturday,5,May,Recommended Range
+8378563200,2016-05-08,1,545,606,9.08,10.1,89.93,Sunday,5,May,Long Sleep
+8378563200,2016-05-09,1,359,399,5.98,6.65,89.97,Monday,5,May,Short Sleep
+8378563200,2016-05-10,1,342,391,5.7,6.52,87.47,Tuesday,5,May,Short Sleep
+8378563200,2016-05-11,1,368,387,6.13,6.45,95.09,Wednesday,5,May,Short Sleep
+8378563200,2016-05-12,1,496,546,8.27,9.1,90.84,Thursday,5,May,Recommended Range
+8792009665,2016-04-12,1,458,493,7.63,8.22,92.9,Tuesday,4,April,Recommended Range
+8792009665,2016-04-13,1,531,552,8.85,9.2,96.2,Wednesday,4,April,Recommended Range
+8792009665,2016-04-14,1,486,503,8.1,8.38,96.62,Thursday,4,April,Recommended Range
+8792009665,2016-04-15,1,363,377,6.05,6.28,96.29,Friday,4,April,Short Sleep
+8792009665,2016-04-20,1,528,547,8.8,9.12,96.53,Wednesday,4,April,Recommended Range
+8792009665,2016-04-22,1,391,407,6.52,6.78,96.07,Friday,4,April,Short Sleep
+8792009665,2016-04-23,1,339,360,5.65,6.0,94.17,Saturday,4,April,Short Sleep
+8792009665,2016-04-27,1,423,428,7.05,7.13,98.83,Wednesday,4,April,Recommended Range
+8792009665,2016-04-28,1,402,416,6.7,6.93,96.63,Thursday,4,April,Short Sleep
+8792009665,2016-04-29,1,398,406,6.63,6.77,98.03,Friday,4,April,Short Sleep
+8792009665,2016-04-30,1,343,360,5.72,6.0,95.28,Saturday,4,April,Short Sleep
+8792009665,2016-05-01,1,503,527,8.38,8.78,95.45,Sunday,5,May,Recommended Range
+8792009665,2016-05-02,1,415,423,6.92,7.05,98.11,Monday,5,May,Short Sleep
+8792009665,2016-05-03,1,516,545,8.6,9.08,94.68,Tuesday,5,May,Recommended Range
+8792009665,2016-05-04,1,439,463,7.32,7.72,94.82,Wednesday,5,May,Recommended Range

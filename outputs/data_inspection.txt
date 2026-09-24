@@ -1,0 +1,940 @@
+================================================================================
+STRAVA FITNESS DATA - RAW DATA INSPECTION
+================================================================================
+
+Total files found: 20
+
+
+================================================================================
+FILE: dailyActivity_merged(2).csv
+================================================================================
+Rows       : 940
+Columns    : 15
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityDate
+  - TotalSteps
+  - TotalDistance
+  - TrackerDistance
+  - LoggedActivitiesDistance
+  - VeryActiveDistance
+  - ModeratelyActiveDistance
+  - LightActiveDistance
+  - SedentaryActiveDistance
+  - VeryActiveMinutes
+  - FairlyActiveMinutes
+  - LightlyActiveMinutes
+  - SedentaryMinutes
+  - Calories
+
+Missing values:
+  None
+
+Data types:
+Id                            int64
+ActivityDate                    str
+TotalSteps                    int64
+TotalDistance               float64
+TrackerDistance             float64
+LoggedActivitiesDistance    float64
+VeryActiveDistance          float64
+ModeratelyActiveDistance    float64
+LightActiveDistance         float64
+SedentaryActiveDistance     float64
+VeryActiveMinutes             int64
+FairlyActiveMinutes           int64
+LightlyActiveMinutes          int64
+SedentaryMinutes              int64
+Calories                      int64
+
+First 3 rows:
+        Id ActivityDate  TotalSteps  TotalDistance  TrackerDistance  LoggedActivitiesDistance  VeryActiveDistance  ModeratelyActiveDistance  LightActiveDistance  SedentaryActiveDistance  VeryActiveMinutes  FairlyActiveMinutes  LightlyActiveMinutes  SedentaryMinutes  Calories
+1503960366    4/12/2016       13162           8.50             8.50                       0.0                1.88                      0.55                 6.06                      0.0                 25                   13                   328               728      1985
+1503960366    4/13/2016       10735           6.97             6.97                       0.0                1.57                      0.69                 4.71                      0.0                 21                   19                   217               776      1797
+1503960366    4/14/2016       10460           6.74             6.74                       0.0                2.44                      0.40                 3.91                      0.0                 30                   11                   181              1218      1776
+
+================================================================================
+FILE: dailyCalories_merged(2).csv
+================================================================================
+Rows       : 940
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityDay
+  - Calories
+
+Missing values:
+  None
+
+Data types:
+Id             int64
+ActivityDay      str
+Calories       int64
+
+First 3 rows:
+        Id ActivityDay  Calories
+1503960366   4/12/2016      1985
+1503960366   4/13/2016      1797
+1503960366   4/14/2016      1776
+
+================================================================================
+FILE: dailyIntensities_merged(2).csv
+================================================================================
+Rows       : 940
+Columns    : 10
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityDay
+  - SedentaryMinutes
+  - LightlyActiveMinutes
+  - FairlyActiveMinutes
+  - VeryActiveMinutes
+  - SedentaryActiveDistance
+  - LightActiveDistance
+  - ModeratelyActiveDistance
+  - VeryActiveDistance
+
+Missing values:
+  None
+
+Data types:
+Id                            int64
+ActivityDay                     str
+SedentaryMinutes              int64
+LightlyActiveMinutes          int64
+FairlyActiveMinutes           int64
+VeryActiveMinutes             int64
+SedentaryActiveDistance     float64
+LightActiveDistance         float64
+ModeratelyActiveDistance    float64
+VeryActiveDistance          float64
+
+First 3 rows:
+        Id ActivityDay  SedentaryMinutes  LightlyActiveMinutes  FairlyActiveMinutes  VeryActiveMinutes  SedentaryActiveDistance  LightActiveDistance  ModeratelyActiveDistance  VeryActiveDistance
+1503960366   4/12/2016               728                   328                   13                 25                      0.0                 6.06                      0.55                1.88
+1503960366   4/13/2016               776                   217                   19                 21                      0.0                 4.71                      0.69                1.57
+1503960366   4/14/2016              1218                   181                   11                 30                      0.0                 3.91                      0.40                2.44
+
+================================================================================
+FILE: dailySteps_merged(2).csv
+================================================================================
+Rows       : 940
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityDay
+  - StepTotal
+
+Missing values:
+  None
+
+Data types:
+Id             int64
+ActivityDay      str
+StepTotal      int64
+
+First 3 rows:
+        Id ActivityDay  StepTotal
+1503960366   4/12/2016      13162
+1503960366   4/13/2016      10735
+1503960366   4/14/2016      10460
+
+================================================================================
+FILE: heartrate_seconds_merged(1)(2).xlsx
+================================================================================
+Rows       : 2,483,658
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - Time
+  - Value
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+Time     datetime64[us]
+Value             int64
+
+First 3 rows:
+        Id                Time  Value
+2022484408 2016-04-12 07:21:00     97
+2022484408 2016-04-12 07:21:05    102
+2022484408 2016-04-12 07:21:10    105
+
+================================================================================
+FILE: heartrate_seconds_merged(2).csv
+================================================================================
+Rows       : 2,483,658
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - Time
+  - Value
+
+Missing values:
+  None
+
+Data types:
+Id       int64
+Time       str
+Value    int64
+
+First 3 rows:
+        Id                 Time  Value
+2022484408 4/12/2016 7:21:00 AM     97
+2022484408 4/12/2016 7:21:05 AM    102
+2022484408 4/12/2016 7:21:10 AM    105
+
+================================================================================
+FILE: heartrate_seconds_merged(3).xlsx
+================================================================================
+Rows       : 2,483,658
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - Time
+  - Value
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+Time     datetime64[us]
+Value             int64
+
+First 3 rows:
+        Id                Time  Value
+2022484408 2016-04-12 07:21:00     97
+2022484408 2016-04-12 07:21:05    102
+2022484408 2016-04-12 07:21:10    105
+
+================================================================================
+FILE: hourlyCalories_merged(2).csv
+================================================================================
+Rows       : 22,099
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - Calories
+
+Missing values:
+  None
+
+Data types:
+Id              int64
+ActivityHour      str
+Calories        int64
+
+First 3 rows:
+        Id          ActivityHour  Calories
+1503960366 4/12/2016 12:00:00 AM        81
+1503960366  4/12/2016 1:00:00 AM        61
+1503960366  4/12/2016 2:00:00 AM        59
+
+================================================================================
+FILE: hourlyIntensities_merged(2).csv
+================================================================================
+Rows       : 22,099
+Columns    : 4
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - TotalIntensity
+  - AverageIntensity
+
+Missing values:
+  None
+
+Data types:
+Id                    int64
+ActivityHour            str
+TotalIntensity        int64
+AverageIntensity    float64
+
+First 3 rows:
+        Id          ActivityHour  TotalIntensity  AverageIntensity
+1503960366 4/12/2016 12:00:00 AM              20          0.333333
+1503960366  4/12/2016 1:00:00 AM               8          0.133333
+1503960366  4/12/2016 2:00:00 AM               7          0.116667
+
+================================================================================
+FILE: hourlySteps_merged(2).csv
+================================================================================
+Rows       : 22,099
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - StepTotal
+
+Missing values:
+  None
+
+Data types:
+Id              int64
+ActivityHour      str
+StepTotal       int64
+
+First 3 rows:
+        Id          ActivityHour  StepTotal
+1503960366 4/12/2016 12:00:00 AM        373
+1503960366  4/12/2016 1:00:00 AM        160
+1503960366  4/12/2016 2:00:00 AM        151
+
+================================================================================
+FILE: minuteCaloriesNarrow_merged(2).csv
+================================================================================
+Rows       : 1,325,580
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityMinute
+  - Calories
+
+Missing values:
+  None
+
+Data types:
+Id                  int64
+ActivityMinute        str
+Calories          float64
+
+First 3 rows:
+        Id        ActivityMinute  Calories
+1503960366 4/12/2016 12:00:00 AM    0.7865
+1503960366 4/12/2016 12:01:00 AM    0.7865
+1503960366 4/12/2016 12:02:00 AM    0.7865
+
+================================================================================
+FILE: minuteCaloriesWide_merged(2).csv
+================================================================================
+Rows       : 21,645
+Columns    : 62
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - Calories00
+  - Calories01
+  - Calories02
+  - Calories03
+  - Calories04
+  - Calories05
+  - Calories06
+  - Calories07
+  - Calories08
+  - Calories09
+  - Calories10
+  - Calories11
+  - Calories12
+  - Calories13
+  - Calories14
+  - Calories15
+  - Calories16
+  - Calories17
+  - Calories18
+  - Calories19
+  - Calories20
+  - Calories21
+  - Calories22
+  - Calories23
+  - Calories24
+  - Calories25
+  - Calories26
+  - Calories27
+  - Calories28
+  - Calories29
+  - Calories30
+  - Calories31
+  - Calories32
+  - Calories33
+  - Calories34
+  - Calories35
+  - Calories36
+  - Calories37
+  - Calories38
+  - Calories39
+  - Calories40
+  - Calories41
+  - Calories42
+  - Calories43
+  - Calories44
+  - Calories45
+  - Calories46
+  - Calories47
+  - Calories48
+  - Calories49
+  - Calories50
+  - Calories51
+  - Calories52
+  - Calories53
+  - Calories54
+  - Calories55
+  - Calories56
+  - Calories57
+  - Calories58
+  - Calories59
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+ActivityHour        str
+Calories00      float64
+Calories01      float64
+Calories02      float64
+Calories03      float64
+Calories04      float64
+Calories05      float64
+Calories06      float64
+Calories07      float64
+Calories08      float64
+Calories09      float64
+Calories10      float64
+Calories11      float64
+Calories12      float64
+Calories13      float64
+Calories14      float64
+Calories15      float64
+Calories16      float64
+Calories17      float64
+Calories18      float64
+Calories19      float64
+Calories20      float64
+Calories21      float64
+Calories22      float64
+Calories23      float64
+Calories24      float64
+Calories25      float64
+Calories26      float64
+Calories27      float64
+Calories28      float64
+Calories29      float64
+Calories30      float64
+Calories31      float64
+Calories32      float64
+Calories33      float64
+Calories34      float64
+Calories35      float64
+Calories36      float64
+Calories37      float64
+Calories38      float64
+Calories39      float64
+Calories40      float64
+Calories41      float64
+Calories42      float64
+Calories43      float64
+Calories44      float64
+Calories45      float64
+Calories46      float64
+Calories47      float64
+Calories48      float64
+Calories49      float64
+Calories50      float64
+Calories51      float64
+Calories52      float64
+Calories53      float64
+Calories54      float64
+Calories55      float64
+Calories56      float64
+Calories57      float64
+Calories58      float64
+Calories59      float64
+
+First 3 rows:
+        Id          ActivityHour  Calories00  Calories01  Calories02  Calories03  Calories04  Calories05  Calories06  Calories07  Calories08  Calories09  Calories10  Calories11  Calories12  Calories13  Calories14  Calories15  Calories16  Calories17  Calories18  Calories19  Calories20  Calories21  Calories22  Calories23  Calories24  Calories25  Calories26  Calories27  Calories28  Calories29  Calories30  Calories31  Calories32  Calories33  Calories34  Calories35  Calories36  Calories37  Calories38  Calories39  Calories40  Calories41  Calories42  Calories43  Calories44  Calories45  Calories46  Calories47  Calories48  Calories49  Calories50  Calories51  Calories52  Calories53  Calories54  Calories55  Calories56  Calories57  Calories58  Calories59
+1503960366 4/13/2016 12:00:00 AM      1.8876      2.2022      0.9438      0.9438      0.9438      2.0449      0.9438      2.2022      0.9438      0.7865      0.9438      0.7865      0.7865      0.7865      0.7865      0.9438      0.9438      0.7865      0.7865      0.7865      1.8876      0.9438      0.9438      0.9438      0.9438      2.0449      2.3595      0.9438      2.0449      0.9438      0.9438      0.9438      2.0449      1.8876      0.9438      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.9438      2.0449      2.0449      0.9438      2.3595      1.8876      0.9438      0.9438      0.9438      0.9438
+1503960366  4/13/2016 1:00:00 AM      0.7865      0.7865      0.7865      0.7865      0.9438      0.9438      0.9438      0.7865      0.9438      0.7865      0.9438      0.7865      0.9438      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865
+1503960366  4/13/2016 2:00:00 AM      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865      0.7865
+
+================================================================================
+FILE: minuteIntensitiesNarrow_merged(2).csv
+================================================================================
+Rows       : 1,325,580
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityMinute
+  - Intensity
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+ActivityMinute      str
+Intensity         int64
+
+First 3 rows:
+        Id        ActivityMinute  Intensity
+1503960366 4/12/2016 12:00:00 AM          0
+1503960366 4/12/2016 12:01:00 AM          0
+1503960366 4/12/2016 12:02:00 AM          0
+
+================================================================================
+FILE: minuteIntensitiesWide_merged(2).csv
+================================================================================
+Rows       : 21,645
+Columns    : 62
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - Intensity00
+  - Intensity01
+  - Intensity02
+  - Intensity03
+  - Intensity04
+  - Intensity05
+  - Intensity06
+  - Intensity07
+  - Intensity08
+  - Intensity09
+  - Intensity10
+  - Intensity11
+  - Intensity12
+  - Intensity13
+  - Intensity14
+  - Intensity15
+  - Intensity16
+  - Intensity17
+  - Intensity18
+  - Intensity19
+  - Intensity20
+  - Intensity21
+  - Intensity22
+  - Intensity23
+  - Intensity24
+  - Intensity25
+  - Intensity26
+  - Intensity27
+  - Intensity28
+  - Intensity29
+  - Intensity30
+  - Intensity31
+  - Intensity32
+  - Intensity33
+  - Intensity34
+  - Intensity35
+  - Intensity36
+  - Intensity37
+  - Intensity38
+  - Intensity39
+  - Intensity40
+  - Intensity41
+  - Intensity42
+  - Intensity43
+  - Intensity44
+  - Intensity45
+  - Intensity46
+  - Intensity47
+  - Intensity48
+  - Intensity49
+  - Intensity50
+  - Intensity51
+  - Intensity52
+  - Intensity53
+  - Intensity54
+  - Intensity55
+  - Intensity56
+  - Intensity57
+  - Intensity58
+  - Intensity59
+
+Missing values:
+  None
+
+Data types:
+Id              int64
+ActivityHour      str
+Intensity00     int64
+Intensity01     int64
+Intensity02     int64
+Intensity03     int64
+Intensity04     int64
+Intensity05     int64
+Intensity06     int64
+Intensity07     int64
+Intensity08     int64
+Intensity09     int64
+Intensity10     int64
+Intensity11     int64
+Intensity12     int64
+Intensity13     int64
+Intensity14     int64
+Intensity15     int64
+Intensity16     int64
+Intensity17     int64
+Intensity18     int64
+Intensity19     int64
+Intensity20     int64
+Intensity21     int64
+Intensity22     int64
+Intensity23     int64
+Intensity24     int64
+Intensity25     int64
+Intensity26     int64
+Intensity27     int64
+Intensity28     int64
+Intensity29     int64
+Intensity30     int64
+Intensity31     int64
+Intensity32     int64
+Intensity33     int64
+Intensity34     int64
+Intensity35     int64
+Intensity36     int64
+Intensity37     int64
+Intensity38     int64
+Intensity39     int64
+Intensity40     int64
+Intensity41     int64
+Intensity42     int64
+Intensity43     int64
+Intensity44     int64
+Intensity45     int64
+Intensity46     int64
+Intensity47     int64
+Intensity48     int64
+Intensity49     int64
+Intensity50     int64
+Intensity51     int64
+Intensity52     int64
+Intensity53     int64
+Intensity54     int64
+Intensity55     int64
+Intensity56     int64
+Intensity57     int64
+Intensity58     int64
+Intensity59     int64
+
+First 3 rows:
+        Id          ActivityHour  Intensity00  Intensity01  Intensity02  Intensity03  Intensity04  Intensity05  Intensity06  Intensity07  Intensity08  Intensity09  Intensity10  Intensity11  Intensity12  Intensity13  Intensity14  Intensity15  Intensity16  Intensity17  Intensity18  Intensity19  Intensity20  Intensity21  Intensity22  Intensity23  Intensity24  Intensity25  Intensity26  Intensity27  Intensity28  Intensity29  Intensity30  Intensity31  Intensity32  Intensity33  Intensity34  Intensity35  Intensity36  Intensity37  Intensity38  Intensity39  Intensity40  Intensity41  Intensity42  Intensity43  Intensity44  Intensity45  Intensity46  Intensity47  Intensity48  Intensity49  Intensity50  Intensity51  Intensity52  Intensity53  Intensity54  Intensity55  Intensity56  Intensity57  Intensity58  Intensity59
+1503960366 4/13/2016 12:00:00 AM            1            1            0            0            0            1            0            1            0            0            0            0            0            0            0            0            0            0            0            0            1            0            0            0            0            1            1            0            1            0            0            0            1            1            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            1            1            0            1            1            0            0            0            0
+1503960366  4/13/2016 1:00:00 AM            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0
+1503960366  4/13/2016 2:00:00 AM            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0            0
+
+================================================================================
+FILE: minuteMETsNarrow_merged(2).csv
+================================================================================
+Rows       : 1,325,580
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityMinute
+  - METs
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+ActivityMinute      str
+METs              int64
+
+First 3 rows:
+        Id        ActivityMinute  METs
+1503960366 4/12/2016 12:00:00 AM    10
+1503960366 4/12/2016 12:01:00 AM    10
+1503960366 4/12/2016 12:02:00 AM    10
+
+================================================================================
+FILE: minuteSleep_merged(2).csv
+================================================================================
+Rows       : 188,521
+Columns    : 4
+Duplicates : 543
+
+Columns:
+  - Id
+  - date
+  - value
+  - logId
+
+Missing values:
+  None
+
+Data types:
+Id       int64
+date       str
+value    int64
+logId    int64
+
+First 3 rows:
+        Id                 date  value       logId
+1503960366 4/12/2016 2:47:30 AM      3 11380564589
+1503960366 4/12/2016 2:48:30 AM      2 11380564589
+1503960366 4/12/2016 2:49:30 AM      1 11380564589
+
+================================================================================
+FILE: minuteStepsNarrow_merged(2).csv
+================================================================================
+Rows       : 1,325,580
+Columns    : 3
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityMinute
+  - Steps
+
+Missing values:
+  None
+
+Data types:
+Id                int64
+ActivityMinute      str
+Steps             int64
+
+First 3 rows:
+        Id        ActivityMinute  Steps
+1503960366 4/12/2016 12:00:00 AM      0
+1503960366 4/12/2016 12:01:00 AM      0
+1503960366 4/12/2016 12:02:00 AM      0
+
+================================================================================
+FILE: minuteStepsWide_merged(2).csv
+================================================================================
+Rows       : 21,645
+Columns    : 62
+Duplicates : 0
+
+Columns:
+  - Id
+  - ActivityHour
+  - Steps00
+  - Steps01
+  - Steps02
+  - Steps03
+  - Steps04
+  - Steps05
+  - Steps06
+  - Steps07
+  - Steps08
+  - Steps09
+  - Steps10
+  - Steps11
+  - Steps12
+  - Steps13
+  - Steps14
+  - Steps15
+  - Steps16
+  - Steps17
+  - Steps18
+  - Steps19
+  - Steps20
+  - Steps21
+  - Steps22
+  - Steps23
+  - Steps24
+  - Steps25
+  - Steps26
+  - Steps27
+  - Steps28
+  - Steps29
+  - Steps30
+  - Steps31
+  - Steps32
+  - Steps33
+  - Steps34
+  - Steps35
+  - Steps36
+  - Steps37
+  - Steps38
+  - Steps39
+  - Steps40
+  - Steps41
+  - Steps42
+  - Steps43
+  - Steps44
+  - Steps45
+  - Steps46
+  - Steps47
+  - Steps48
+  - Steps49
+  - Steps50
+  - Steps51
+  - Steps52
+  - Steps53
+  - Steps54
+  - Steps55
+  - Steps56
+  - Steps57
+  - Steps58
+  - Steps59
+
+Missing values:
+  None
+
+Data types:
+Id              int64
+ActivityHour      str
+Steps00         int64
+Steps01         int64
+Steps02         int64
+Steps03         int64
+Steps04         int64
+Steps05         int64
+Steps06         int64
+Steps07         int64
+Steps08         int64
+Steps09         int64
+Steps10         int64
+Steps11         int64
+Steps12         int64
+Steps13         int64
+Steps14         int64
+Steps15         int64
+Steps16         int64
+Steps17         int64
+Steps18         int64
+Steps19         int64
+Steps20         int64
+Steps21         int64
+Steps22         int64
+Steps23         int64
+Steps24         int64
+Steps25         int64
+Steps26         int64
+Steps27         int64
+Steps28         int64
+Steps29         int64
+Steps30         int64
+Steps31         int64
+Steps32         int64
+Steps33         int64
+Steps34         int64
+Steps35         int64
+Steps36         int64
+Steps37         int64
+Steps38         int64
+Steps39         int64
+Steps40         int64
+Steps41         int64
+Steps42         int64
+Steps43         int64
+Steps44         int64
+Steps45         int64
+Steps46         int64
+Steps47         int64
+Steps48         int64
+Steps49         int64
+Steps50         int64
+Steps51         int64
+Steps52         int64
+Steps53         int64
+Steps54         int64
+Steps55         int64
+Steps56         int64
+Steps57         int64
+Steps58         int64
+Steps59         int64
+
+First 3 rows:
+        Id          ActivityHour  Steps00  Steps01  Steps02  Steps03  Steps04  Steps05  Steps06  Steps07  Steps08  Steps09  Steps10  Steps11  Steps12  Steps13  Steps14  Steps15  Steps16  Steps17  Steps18  Steps19  Steps20  Steps21  Steps22  Steps23  Steps24  Steps25  Steps26  Steps27  Steps28  Steps29  Steps30  Steps31  Steps32  Steps33  Steps34  Steps35  Steps36  Steps37  Steps38  Steps39  Steps40  Steps41  Steps42  Steps43  Steps44  Steps45  Steps46  Steps47  Steps48  Steps49  Steps50  Steps51  Steps52  Steps53  Steps54  Steps55  Steps56  Steps57  Steps58  Steps59
+1503960366 4/13/2016 12:00:00 AM        4       16        0        0        0        9        0       17        0        0        0        0        0        0        0        0        0        0        0        0        6        0        0        0        0       11       21        0        8        0        0        0        8        6        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        9        8        0       20        1        0        0        0        0
+1503960366  4/13/2016 1:00:00 AM        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0
+1503960366  4/13/2016 2:00:00 AM        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0
+
+================================================================================
+FILE: sleepDay_merged(2).csv
+================================================================================
+Rows       : 413
+Columns    : 5
+Duplicates : 3
+
+Columns:
+  - Id
+  - SleepDay
+  - TotalSleepRecords
+  - TotalMinutesAsleep
+  - TotalTimeInBed
+
+Missing values:
+  None
+
+Data types:
+Id                    int64
+SleepDay                str
+TotalSleepRecords     int64
+TotalMinutesAsleep    int64
+TotalTimeInBed        int64
+
+First 3 rows:
+        Id              SleepDay  TotalSleepRecords  TotalMinutesAsleep  TotalTimeInBed
+1503960366 4/12/2016 12:00:00 AM                  1                 327             346
+1503960366 4/13/2016 12:00:00 AM                  2                 384             407
+1503960366 4/15/2016 12:00:00 AM                  1                 412             442
+
+================================================================================
+FILE: weightLogInfo_merged(2).csv
+================================================================================
+Rows       : 67
+Columns    : 8
+Duplicates : 0
+
+Columns:
+  - Id
+  - Date
+  - WeightKg
+  - WeightPounds
+  - Fat
+  - BMI
+  - IsManualReport
+  - LogId
+
+Missing values:
+  - Fat: 65
+
+Data types:
+Id                  int64
+Date                  str
+WeightKg          float64
+WeightPounds      float64
+Fat               float64
+BMI               float64
+IsManualReport       bool
+LogId               int64
+
+First 3 rows:
+        Id                 Date   WeightKg  WeightPounds  Fat       BMI  IsManualReport         LogId
+1503960366 5/2/2016 11:59:59 PM  52.599998    115.963147 22.0 22.650000            True 1462233599000
+1503960366 5/3/2016 11:59:59 PM  52.599998    115.963147  NaN 22.650000            True 1462319999000
+1927972279 4/13/2016 1:08:52 AM 133.500000    294.317120  NaN 47.540001           False 1460509732000
+
+================================================================================
+INSPECTION COMPLETE
+================================================================================
